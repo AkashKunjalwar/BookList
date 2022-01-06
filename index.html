@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Styling Sheet -->
+
+    <link rel="stylesheet" href="index.css">
+
+
+    <title>My Book List</title>
+  </head>
+  <body>
+    <!-- <div class="ConfirmMsg">
+        <h3>Are you sure clearing the table ?</h3>
+        <button class="btn btn-light">Yes</button><button class="btn btn-dark">Cancel</button>
+    </div> -->
+   
+    <section class="sectionUI">
+        <div class="CompleteUI">
+            <div class="heading">
+                <h1>My Book List</h1>
+            </div>
+            <div class="form">
+                <form class="book-details">
+                    <div class="bookname">
+                        <h6>Book Name</h6>
+                        <input type="text" id="bookname" placeholder="Enter book name">
+                    </div>
+                    <div class="authorname">
+                        <h6>Author Name</h6>
+                        <input type="text" id="authorname" placeholder="Enter author name">
+                    </div>
+                    <div class="isbn">
+                        <h6>ISBN</h6>
+                        <input type="number" id="isbn" placeholder="Enter ISBN">
+                    </div>
+                    <button class="btn btn-success">Add Details</button>
+                    <button id="danger"class="btn btn-danger">Clear All Details</button>
+                </form>
+            </div>
+            <div class="containstable">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Book Name</th>
+                            <th>Author Name</th>
+                            <th>ISBN</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="list"></tbody>
+                </table>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Javascript File -->
+
+    <script src="index.js"></script>
+
+  </body>
+</html>

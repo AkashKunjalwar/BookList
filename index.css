@@ -1,0 +1,76 @@
+.sectionUI{
+    min-height: 500px;
+    width: 50%;
+    background-color: grey;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.heading{
+    padding: 25px;
+    text-align: center;
+}
+.form{
+    margin-left: 200px;
+}
+input{
+    width: 500px;
+}
+.bookname, .authorname, .isbn{
+    padding: 25px;
+}
+.btn{
+    margin: 25px;
+    width: 31%;
+}
+.btn-danger{
+    margin: 0;
+}
+.fail{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+.success{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+.delete{
+    text-decoration: none;
+    color: black;
+}
+.delete:hover{
+    color: red;
+}
+.containstable{
+    border-style: solid;
+    background-color: white;
+    max-height: 250px;
+    overflow-y: scroll;
+}
+thead{
+    background-color: black;
+    color: white;
+}
+tbody tr:nth-child(2n){
+    background-color: white;
+    color: black;
+}
+tbody tr:nth-child(2n+1){
+    background-color: grey;
+    color: white;
+}
+.ConfirmMsg{
+    text-align: center;
+    padding-top: 15px;
+    width: 450px;
+    height: 150px;
+    margin: auto;
+    border-style: solid;
+    border-color: black;
+    background-color:orange;
+    transform: translateY(-600px);
+}
